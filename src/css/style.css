@@ -224,7 +224,7 @@ ul, li {
 }
 
 .loginPage .form__password-control {
-  top: 39px;
+  top: 45px;
   font-size: 20px;
   right: 30px;
   position: absolute;
@@ -353,6 +353,10 @@ ul, li {
     margin-top: 14px;
     margin-bottom: 30px;
   }
+  .form__password-login{
+    top: 40px;
+  }
+ 
   .loginPage .form__block {
     margin-bottom: 40px;
   }

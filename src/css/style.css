@@ -375,7 +375,7 @@ ul, li {
   }
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
   .header__nav {
     height: 80px;
   }
@@ -417,7 +417,7 @@ ul, li {
   }
 }
 
-@media screen and (device-width: 1024px) and (device-height: 1366px) {
+@media screen and (max-width: 1024px) and (height: 1366px) {
   .loginPage {
     position: absolute;
     top: 50%;

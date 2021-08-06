@@ -396,7 +396,7 @@ ul, li {list-style: none;}
 }
 
 
-@media screen and (device-width: 1024px) and (device-height: 1366px) {
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
     .loginPage{
         position: absolute;
         top: 50%;

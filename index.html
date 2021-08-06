@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="burger">
+                <span class='burger__icon'></span>
+            </div>
+            <ul class="header__nav">
+                <li class="header__item"><a href="#" class="header__link">Help</a></li>
+                <li class="header__item"><a href="#" class="header__link">Contact us</a></li>
+                <li class="header__item"><a href="#" class="header__link">English</a></li>
+                <li class="header__item"><a href="#" class="header__link">Sign Up</a></li>
+                <li class="header__item"><a href="#" class="header__img"><i class="fas fa-home"></i></a></li>
+                
+            </ul>
+        </div>
+    </header>
+    <section class="loginPage">
+        <div class="container">
+            <div class="loginPage__form-block">
+                <h1 class="loginPage__title">WELCOME BACK!</h1>
+                <p class="loginPage__subtitle">Don’t have a account, <a>Sign up</a></p>
+                <form class="loginPage__form form">
+                    <label for="email">Username</label>
+                    <input class='form__input' id="email" type="email" required placeholder="deniel123@gmail.com">
+                    <label for="password">Password</label>
+                    <div class="form__password-block">
+                        <input id='password' class='form__input' id='password'  required type="password">
+                        <a href="#" class="form__password-control" onclick=" return passwordShow(this)"></a>
+                    </div>
+                    <div class="form__block">
+                        <div class="form__radio">
+                            <input id="radio-btn"  name='radio-btn' type="checkbox">
+                            <label for="radio-btn">Remember me</label>
+                        </div>
+                        <a href="#" class="form__forget">Forget password?</a>
+                    </div>
+                    <button class="form__btn">Sign In</button>
+                </form>
+                <div class="loginPage__social">
+                    <p class="loginPage__text">or continue with</p>
+                    <div class="loginPage__social-login">
+                        <a href="#"><img src="./src/img/google.svg" alt="google-icon"></a>
+                        <a href="#"><img src="./src/img/facebook.svg" alt="facebook-icon"></a>
+                        <a href="#"><img src="./src/img/apple.svg" alt="apple-icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="loginPage__img-block">
+                <img src="./src/img/Exlorer.png" class="loginPage__img"></img>
+            </div>
+        </div>
+    </section>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
